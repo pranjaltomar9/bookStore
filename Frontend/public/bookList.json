@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "price": 0,
+        "category": "Free",
+        "image": "https://www.google.com/imgres?q=books%20image&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fhand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg%3Fw%3D360&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbook&docid=DTzTbzUrCkPgOM&tbnid=8RV_riwqO2-Y_M&vet=12ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA..i&w=360&h=360&hcb=2&ved=2ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA"
+    },
+    {
+        "id": 2,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "price": 0,
+        "category": "Free",
+        "image": "https://www.google.com/imgres?q=books%20image&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fhand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg%3Fw%3D360&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbook&docid=DTzTbzUrCkPgOM&tbnid=8RV_riwqO2-Y_M&vet=12ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA..i&w=360&h=360&hcb=2&ved=2ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA"
+    },
+    {
+        "id": 3,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "price": 70,
+        "category": "Priced",
+        "image": "https://www.google.com/imgres?q=books%20image&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fhand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg%3Fw%3D360&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbook&docid=DTzTbzUrCkPgOM&tbnid=8RV_riwqO2-Y_M&vet=12ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA..i&w=360&h=360&hcb=2&ved=2ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA"
+    },
+    {
+        "id": 4,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "price": 0,
+        "category": "Free",
+        "image": "https://www.google.com/imgres?q=books%20image&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fhand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg%3Fw%3D360&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbook&docid=DTzTbzUrCkPgOM&tbnid=8RV_riwqO2-Y_M&vet=12ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA..i&w=360&h=360&hcb=2&ved=2ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA"
+    },
+    {
+        "id": 5,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "price": 100,
+        "category": "Priced",
+        "image": "https://www.google.com/imgres?q=books%20image&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fhand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg%3Fw%3D360&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbook&docid=DTzTbzUrCkPgOM&tbnid=8RV_riwqO2-Y_M&vet=12ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA..i&w=360&h=360&hcb=2&ved=2ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA"
+    },
+    {
+        "id": 6,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "price": 80,
+        "category": "Priced",
+        "image": "https://www.google.com/imgres?q=books%20image&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fhand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg%3Fw%3D360&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbook&docid=DTzTbzUrCkPgOM&tbnid=8RV_riwqO2-Y_M&vet=12ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA..i&w=360&h=360&hcb=2&ved=2ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA"
+    },
+    {
+        "id": 7,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "price": 0,
+        "category": "Free",
+        "image": "https://www.google.com/imgres?q=books%20image&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fhand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg%3Fw%3D360&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbook&docid=DTzTbzUrCkPgOM&tbnid=8RV_riwqO2-Y_M&vet=12ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA..i&w=360&h=360&hcb=2&ved=2ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA"
+    },
+    {
+        "id": 8,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "price": 230,
+        "category": "Priced",
+        "image": "https://www.google.com/imgres?q=books%20image&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fhand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg%3Fw%3D360&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbook&docid=DTzTbzUrCkPgOM&tbnid=8RV_riwqO2-Y_M&vet=12ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA..i&w=360&h=360&hcb=2&ved=2ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA"
+    },
+    {
+        "id": 9,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "price": 0,
+        "category": "Free",
+        "image": "https://www.google.com/imgres?q=books%20image&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fhand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg%3Fw%3D360&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbook&docid=DTzTbzUrCkPgOM&tbnid=8RV_riwqO2-Y_M&vet=12ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA..i&w=360&h=360&hcb=2&ved=2ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA"
+    },
+    {
+        "id": 10,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "price": 0,
+        "category": "Free",
+        "image": "https://www.google.com/imgres?q=books%20image&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fhand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg%3Fw%3D360&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbook&docid=DTzTbzUrCkPgOM&tbnid=8RV_riwqO2-Y_M&vet=12ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA..i&w=360&h=360&hcb=2&ved=2ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA"
+    },
+    {
+        "id": 11,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit",
+        "price": 150,
+        "category": "Priced",
+        "image": "https://www.google.com/imgres?q=books%20image&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fhand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg%3Fw%3D360&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbook&docid=DTzTbzUrCkPgOM&tbnid=8RV_riwqO2-Y_M&vet=12ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA..i&w=360&h=360&hcb=2&ved=2ahUKEwiJlqHx_NuOAxV-yzgGHVZ0KLQQM3oECAsQAA"
+    }
+]
