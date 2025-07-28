@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "full stack mern project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/pranjaltomar9/bookStore/issues"
   },
-  "homepage": "https://github.com/pranjaltomar9/bookStore#readme"
+  "homepage": "https://github.com/pranjaltomar9/bookStore#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.5",
+    "nodemon": "^3.1.10"
+  }
 }
