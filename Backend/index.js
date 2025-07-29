@@ -1,7 +1,11 @@
 import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
+import bookRoute from "./routes/book.routes.js"
+import cors from "cors";
+
 const app = express()
+app.use(cors());
 dotenv.config();
 
 ( async () => {
@@ -21,4 +25,6 @@ dotenv.config();
         throw err
     }
 })()
+
+app.use("/book", bookRoute);
 
