@@ -1,11 +1,14 @@
 import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import bookRoute from "./routes/book.routes.js"
 import cors from "cors";
+
+import bookRoute from "./routes/book.routes.js"
+import userRoute from "./routes/user.routes.js"
 
 const app = express()
 app.use(cors());
+app.use(express.json())
 dotenv.config();
 
 ( async () => {
@@ -27,4 +30,5 @@ dotenv.config();
 })()
 
 app.use("/book", bookRoute);
+app.use("/user", userRoute)
 

@@ -1,16 +1,35 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import toast from 'react-hot-toast'
+import axios from "axios"
 import Login from './Login'
 import { useForm } from 'react-hook-form'
 
 function Signup() {
     const {
-    register,
-    handleSubmit,
-    watch,
-    formState: { errors },
-  } = useForm()
-  const onSubmit = (data) => console.log(data)
+        register,
+        handleSubmit,
+        watch,
+        formState: { errors },
+    } = useForm()
+    const onSubmit = async (data) => {
+        const userInfo = {
+            username: data.username,
+            email: data.email,
+            password: data.password,
+        }
+        await axios.post("http://localhost:4000/user/signup", userInfo)
+            .then((res) => {
+                console.log(res.data);
+                if (res.data) {
+                    toast.success("Account successfully created!!!")
+                }
+                localStorage.setItem("Users", JSON.stringify(res.data))
+            })
+            .catch((err) => {
+                toast.error("Error: " + err)
+            })
+    }
     return (
         <div className='flex h-screen items-center justify-center'>
             <div className="border-[1px] w-[600px] shadow-md p-5 rounded-md dark:bg-slate-700 dark:text-white">
@@ -27,7 +46,7 @@ function Signup() {
                                 className='w-80 px-3 py-1 border rounded-md outline-none'
                                 {...register("username", { required: true })}
                             />
-                            <br/>
+                            <br />
                             {errors.username && <span className="text-sm text-red-500">This field is required</span>}
                         </div>
 
@@ -39,7 +58,7 @@ function Signup() {
                                 className='w-80 px-3 py-1 border rounded-md outline-none'
                                 {...register("email", { required: true })}
                             />
-                            <br/>
+                            <br />
                             {errors.email && <span className="text-sm text-red-500">This field is required</span>}
                         </div>
 
@@ -51,7 +70,7 @@ function Signup() {
                                 className='w-80 px-3 py-1 border rounded-md outline-none'
                                 {...register("password", { required: true })}
                             />
-                            <br/>
+                            <br />
                             {errors.password && <span className="text-sm text-red-500">This field is required</span>}
                         </div>
 
