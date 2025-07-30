@@ -17,17 +17,22 @@ function Login() {
             email: data.email,
             password: data.password,
         }
-        await axios.post("http://localhost:4000/user/login", userInfo)
-            .then((res) => {
-                console.log(res.data);
-                if (res.data) {
-                    toast.success("Login Successfull!!!")
-                }
-                localStorage.setItem("Users", JSON.stringify(res.data))
-            })
-            .catch((err) => {
-                toast.error("Error meow: " + err)
-            })
+        await axios
+        .post("http://localhost:4000/user/login", userInfo)
+        .then((res) => {
+            console.log(res.data);
+            if (res.data) {
+                toast.success("Login Successfull!!!")
+                document.getElementById("my_modal_3").close()
+                setTimeout(() => {
+                    window.location.reload();
+                    localStorage.setItem("Users", JSON.stringify(res.data.user));
+                }, 3000);
+            }
+        })
+        .catch((err) => {
+            toast.error("Error meow: " + err)
+        })
     }
     return (
         <div>

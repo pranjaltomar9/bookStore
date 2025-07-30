@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Navigate } from 'react-router-dom'
 import toast from 'react-hot-toast'
 import axios from "axios"
 import Login from './Login'
@@ -18,17 +19,19 @@ function Signup() {
             email: data.email,
             password: data.password,
         }
-        await axios.post("http://localhost:4000/user/signup", userInfo)
-            .then((res) => {
-                console.log(res.data);
-                if (res.data) {
-                    toast.success("Account successfully created!!!")
-                }
-                localStorage.setItem("Users", JSON.stringify(res.data))
-            })
-            .catch((err) => {
-                toast.error("Error: " + err)
-            })
+        await axios
+        .post("http://localhost:4000/user/signup", userInfo)
+        .then((res) => {
+            console.log(res.data);
+            if (res.data) {
+                toast.success("Account successfully created!!!");
+                <Navigate to="/"/>
+            }
+            localStorage.setItem("Users", JSON.stringify(res.data.user))
+        })
+        .catch((err) => {
+            toast.error("Error: " + err)
+        })
     }
     return (
         <div className='flex h-screen items-center justify-center'>
