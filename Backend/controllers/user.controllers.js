@@ -5,7 +5,6 @@ export const signup = async (req, res) => {
     try {
         const {username, email, password} = req.body;
         const user = await User.findOne({email})
-        console.log(password);
         
         if(user){
             return res.status(400).json({message: "Account already exists!!!"})
@@ -35,7 +34,6 @@ export const signup = async (req, res) => {
 export const login = async (req, res) => {
     try {
         const {email, password} = req.body;
-        console.log("Login req body: ", req.body);
         
         const user = await User.findOne({email})
         if(user){
